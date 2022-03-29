@@ -2,7 +2,7 @@
   "name": "ang-on-heroku",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build --configuration=production",
+    "heroku-postbuild": "ng build",
     "ng": "ng",
     "start": "node server.js",
     "test": "ng test",
